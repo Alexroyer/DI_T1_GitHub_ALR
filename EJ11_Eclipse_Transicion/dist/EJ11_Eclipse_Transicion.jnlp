@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EJ11_Eclipse_Transicion.jnlp">
+  <information>
+    <title>EJ11_Eclipse_Transicion</title>
+    <vendor>Aleja</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EJ11_Eclipse_Transicion.jar" size="2336" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="EJ11_Eclipse_Transicion" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ej11_eclipse_transicion.EJ11_Eclipse_Transicion"  name="EJ11_Eclipse_Transicion" />
+  <update check="always"/>
+</jnlp>

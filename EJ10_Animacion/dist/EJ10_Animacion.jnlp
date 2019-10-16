@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EJ10_Animacion.jnlp">
+  <information>
+    <title>EJ10_Animacion</title>
+    <vendor>Aleja</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EJ10_Animacion.jar" size="2440" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="EJ10_Animacion" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ej10_animacion.EJ10_Animacion"  name="EJ10_Animacion" />
+  <update check="always"/>
+</jnlp>

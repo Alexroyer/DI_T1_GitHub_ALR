@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EJ3_Fancy_Form.jnlp">
+  <information>
+    <title>EJ3_Fancy_Form</title>
+    <vendor>Aleja</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EJ3_Fancy_Form.jar" size="55369" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="EJ3_Fancy_Form" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ej3_fancy_form.EJ3_Fancy_Form"  name="EJ3_Fancy_Form" />
+  <update check="always"/>
+</jnlp>

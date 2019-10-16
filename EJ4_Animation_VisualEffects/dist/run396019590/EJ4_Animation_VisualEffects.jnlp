@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EJ4_Animation_VisualEffects.jnlp">
+  <information>
+    <title>EJ4_Animation_VisualEffects</title>
+    <vendor>Aleja</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EJ4_Animation_VisualEffects.jar" size="2547" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="EJ4_Animation_VisualEffects" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ej4_animation_visualeffects.EJ4_Animation_VisualEffects"  name="EJ4_Animation_VisualEffects" />
+  <update check="always"/>
+</jnlp>

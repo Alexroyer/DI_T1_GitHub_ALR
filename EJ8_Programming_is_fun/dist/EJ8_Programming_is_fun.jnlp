@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EJ8_Programming_is_fun.jnlp">
+  <information>
+    <title>EJ8_Programming_is_fun</title>
+    <vendor>Aleja</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EJ8_Programming_is_fun.jar" size="1945" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="EJ8_Programming_is_fun" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ej8_programming_is_fun.EJ8_Programming_is_fun"  name="EJ8_Programming_is_fun" />
+  <update check="always"/>
+</jnlp>
